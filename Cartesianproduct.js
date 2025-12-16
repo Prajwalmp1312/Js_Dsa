@@ -1,4 +1,4 @@
-function carytesianProduct(arr1, arr2) {
+function cartesianProduct(arr1, arr2) {
   const result = [];
 
   for (let i = 0; i < arr1.length; i++) {
@@ -12,4 +12,4 @@ function carytesianProduct(arr1, arr2) {
 const arr1 = [1, 2];
 const arr2 = [3, 4, 5];
 
-console.log(carytesianProduct(arr1, arr2));
+console.log(cartesianProduct(arr1, arr2));
